@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(70deg, #fff, #ffc0cb);}
+h1{
+  padding-top: 2rem;
+  height: 25.5vh;
+}
+ul{
+  list-style: none;
+  height: 70vh;
+}
+li{
+  border: #000 2px solid; 
+  border-radius: 15%;
+  padding: 1.5rem;
+  margin: 2rem;
+  background-color: #ffc0cb;
+}
+li:hover{
+  background-color: #faafbc;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}

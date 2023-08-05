@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(70deg, #fff, #ffc0cb);
+  height: 100vh;
+}
+.bt21 img{
+  width: 30rem;
+  height: auto;
+  }
+.bt21 img:hover{
+  cursor: pointer;
+}
+.bt21{
+  align-items: center;
+}
+p{
+  text-align: center;
+  padding: 1.5rem;
+}
